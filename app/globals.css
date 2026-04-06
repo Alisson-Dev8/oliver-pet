@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 30% 98%;
+    --foreground: 30 15% 12%;
+
+    --card: 42 35% 96%;
+    --card-foreground: 30 15% 12%;
+
+    --popover: 45 30% 98%;
+    --popover-foreground: 30 15% 12%;
+
+    --primary: 155 60% 32%;
+    --primary-foreground: 45 30% 98%;
+
+    --secondary: 35 55% 92%;
+    --secondary-foreground: 30 15% 12%;
+
+    --muted: 40 20% 94%;
+    --muted-foreground: 30 10% 50%;
+
+    --accent: 25 85% 58%;
+    --accent-foreground: 45 30% 98%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 35 20% 88%;
+    --input: 35 20% 88%;
+    --ring: 155 60% 32%;
+
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 30 15% 8%;
+    --foreground: 40 20% 94%;
+    --card: 30 15% 12%;
+    --card-foreground: 40 20% 94%;
+    --popover: 30 15% 12%;
+    --popover-foreground: 40 20% 94%;
+    --primary: 155 55% 40%;
+    --primary-foreground: 45 30% 98%;
+    --secondary: 30 20% 18%;
+    --secondary-foreground: 40 20% 94%;
+    --muted: 30 10% 18%;
+    --muted-foreground: 30 10% 60%;
+    --accent: 25 85% 58%;
+    --accent-foreground: 45 30% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 30 10% 20%;
+    --input: 30 10% 20%;
+    --ring: 155 55% 40%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+  }
+}
+
+/* ─── Custom utilities ──────────────────────────────────────────────────── */
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(135deg, hsl(155 60% 32%), hsl(155 40% 45%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .blob-shape {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+
+  .shadow-warm {
+    box-shadow: 0 8px 30px -8px hsl(25 85% 58% / 0.2);
+  }
+
+  .shadow-card {
+    box-shadow: 0 2px 16px -4px hsl(30 15% 12% / 0.06);
+  }
+
+  /* Delay helpers para stagger de animações */
+  .animation-delay-100 { animation-delay: 100ms; }
+  .animation-delay-200 { animation-delay: 200ms; }
+  .animation-delay-300 { animation-delay: 300ms; }
+  .animation-delay-400 { animation-delay: 400ms; }
+}
+
+/* ─── Keyframes ─────────────────────────────────────────────────────────── */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-12px); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+html {
+  scroll-behavior: smooth;
+}
