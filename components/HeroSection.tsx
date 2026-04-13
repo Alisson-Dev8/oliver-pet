@@ -55,7 +55,7 @@ export default function HeroSection() {
               </div>
               <div className="w-px h-10 bg-border" />
               <div>
-                <p className="font-display text-3xl font-bold text-foreground">15</p>
+                <p className="font-display text-3xl font-bold text-foreground">8</p>
                 <p className="text-xs text-muted-foreground font-medium">Anos de amor</p>
               </div>
               <div className="w-px h-10 bg-border" />

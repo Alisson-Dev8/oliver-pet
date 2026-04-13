@@ -1,4 +1,5 @@
-import { PawPrint } from "lucide-react";
+
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -7,13 +8,24 @@ export default function Footer() {
         <div className="grid sm:grid-cols-3 gap-10 mb-10">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-primary flex items-center justify-center">
-                <PawPrint size={16} className="text-primary-foreground" />
+            <div className="flex items-center gap-2.5 mb-4 group">
+              {/* O container precisa de 'relative' para o Image fill funcionar */}
+              <div className="relative w-10 h-10 rounded-xl bg-primary overflow-hidden transition-transform group-hover:scale-105">
+                <Image
+                  src="/image-olivepet.png"
+                  alt="OliverPet Logo"
+                  fill // Faz a imagem ocupar todo o espaço da div
+                  className="object-cover" // Garante que preencha sem sobrar espaços brancos
+                />
               </div>
-              <span className="font-display text-lg font-bold text-background">
-                OliverPet Agroshopping
-              </span>
+              <div className="flex flex-col -space-y-0.5">
+                <span className="font-display text-xl font-bold text-white tracking-tight leading-tight">
+                  OliverPet
+                </span>
+                <span className="font-display text-[10px] font-bold text-primary uppercase tracking-[0.2em] leading-tight">
+                  Agroshopping
+                </span>
+              </div>
             </div>
             <p className="text-sm text-background/50 leading-relaxed">
               Excelência em cuidados veterinários e estética animal desde 2018.
