@@ -48,7 +48,7 @@ export default function Footer() {
             <h4 className="font-semibold text-background text-sm mb-4">Fale Conosco</h4>
             <ul className="space-y-2.5 text-sm text-background/50">
               <li>(067) 3253 1500</li>
-              <li>contato@oliverpetagroshopping.com.br</li>
+              <li>oliverpetagroshopping@gmail.com</li>
               <li>
                 Av. Sr. do Bonfim, 1189 - Parque dos Novos Estados, Campo Grande - MS, 79034-250
               </li>
