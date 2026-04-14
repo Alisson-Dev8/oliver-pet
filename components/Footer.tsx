@@ -68,6 +68,7 @@ export default function Footer() {
             </ul>
           </div>
         </div>
+        
         {/* Bottom bar */}
         <div className="border-t border-background/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-background/30">
           <p>© {new Date().getFullYear()} OliverPet Agroshopping. Todos os direitos reservados.</p>

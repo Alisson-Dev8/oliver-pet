@@ -32,7 +32,7 @@ export default function HeroSection() {
 
             <div className="flex flex-col sm:flex-row gap-3">
               <a
-                href="https://wa.me/5567998711818"
+                href="https://wa.me/556792491532"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-7 py-3.5 text-base font-semibold text-primary-foreground hover:opacity-90 transition-opacity shadow-warm"

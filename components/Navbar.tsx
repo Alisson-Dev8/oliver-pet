@@ -73,7 +73,7 @@ export default function Navbar() {
         {/* CTA Button (Desktop) */}
         <div className="hidden md:block">
           <a
-            href="https://wa.me/5567998711818"
+            href="https://wa.me/556792491532"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center justify-center rounded-xl bg-primary px-6 py-2.5 text-sm font-semibold text-primary-foreground hover:opacity-90 transition-all shadow-lg shadow-primary/20 active:scale-95"
@@ -107,7 +107,7 @@ export default function Navbar() {
           ))}
           <div className="pt-4">
             <a
-              href="https://wa.me/5567998711818"
+              href="https://wa.me/556792491532"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center w-full rounded-xl bg-primary px-5 py-4 text-sm font-bold text-primary-foreground shadow-lg shadow-primary/20"
