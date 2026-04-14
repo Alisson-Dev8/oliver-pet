@@ -7,7 +7,7 @@ import { Star, Quote } from "lucide-react";
 const stats = [
   { value: "4.8", label: "Nota média" },
   { value: "100%", label: "Satisfação" },
-  { value: "+500", label: "Itens em estoque" },
+  { value: "+1000", label: "Itens em estoque" },
 ];
 
 const testimonials = [

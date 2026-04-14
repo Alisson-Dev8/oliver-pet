@@ -47,15 +47,27 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-background text-sm mb-4">Fale Conosco</h4>
             <ul className="space-y-2.5 text-sm text-background/50">
-              <li>(067) 3253 1500</li>
-              <li>oliverpetagroshopping@gmail.com</li>
               <li>
-                Av. Sr. do Bonfim, 1189 - Parque dos Novos Estados, Campo Grande - MS, 79034-250
+                <a href="tel:06732531500" title="Ligar para a Oliver PetAgro">(067) 3253-1500</a>
+              </li>
+              <li>
+                <a href="mailto:oliverpetagroshopping@gmail.com" title="Enviar e-mail">
+                  oliverpetagroshopping@gmail.com
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/search/?api=1&query=Av.+Sr.+do+Bonfim,+1189+-+Parque+dos+Novos+Estados,+Campo+Grande+-+MS,+79034-250"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title="Ver localização no mapa"
+                >
+                  Av. Sr. do Bonfim, 1189 - Parque dos Novos Estados, Campo Grande - MS, 79034-250
+                </a>
               </li>
             </ul>
           </div>
         </div>
-
         {/* Bottom bar */}
         <div className="border-t border-background/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs text-background/30">
           <p>© {new Date().getFullYear()} OliverPet Agroshopping. Todos os direitos reservados.</p>
