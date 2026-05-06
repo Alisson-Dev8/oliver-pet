@@ -73,7 +73,7 @@
   }
 }
 
-/* ─── Custom utilities ──────────────────────────────────────────────────── */
+/* --- Custom utilities ---------------------------------------------------- */
 @layer utilities {
   .text-gradient {
     background: linear-gradient(135deg, hsl(155 60% 32%), hsl(155 40% 45%));
@@ -101,7 +101,7 @@
   .animation-delay-400 { animation-delay: 400ms; }
 }
 
-/* ─── Keyframes ─────────────────────────────────────────────────────────── */
+/* --- Keyframes ----------------------------------------------------------- */
 @keyframes float {
   0%, 100% { transform: translateY(0); }
   50%       { transform: translateY(-12px); }

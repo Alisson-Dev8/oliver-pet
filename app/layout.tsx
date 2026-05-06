@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     "banho e tosa",
     "Campo Grande",
     "MS",
-    "MY Agropet",
+    "OliverPet Agroshopping",
     "cuidados pet",
   ],
 };
@@ -27,3 +27,4 @@ export default function RootLayout({
     </html>
   );
 }
+

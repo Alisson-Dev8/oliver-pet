@@ -1,6 +1,6 @@
-# Pet Shop MY Agropet — Next.js
+# Pet Shop OliverPet Agroshopping — Next.js
 
-Site do Pet Shop MY Agropet convertido de Vite/React para **Next.js 14** com App Router, seguindo a mesma estrutura do projeto Ethereal Dental.
+Site do Pet Shop OliverPet Agroshopping convertido de Vite/React para **Next.js 14** com App Router, seguindo a mesma estrutura do projeto Ethereal Dental.
 
 ## 🚀 Como rodar
 
@@ -82,3 +82,4 @@ RUN npm run build
 EXPOSE 3000
 CMD ["npm", "start"]
 ```
+
