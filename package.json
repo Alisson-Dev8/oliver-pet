@@ -1,5 +1,5 @@
 {
-  "name": "my-agropet",
+  "name": "oliver-pet",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -27,3 +27,4 @@
     "eslint-config-next": "14.2.5"
   }
 }
+
