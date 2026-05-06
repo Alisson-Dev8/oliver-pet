@@ -1,8 +1,8 @@
-# Pet Shop OliverPet Agroshopping — Next.js
+# Pet Shop OliverPet Agroshopping - Next.js
 
 Site do Pet Shop OliverPet Agroshopping convertido de Vite/React para **Next.js 14** com App Router, seguindo a mesma estrutura do projeto Ethereal Dental.
 
-## 🚀 Como rodar
+## Como Rodar
 
 ### 1. Instalar dependências
 ```bash
@@ -13,6 +13,7 @@ npm install
 ```bash
 npm run dev
 ```
+
 Acesse [http://localhost:3000](http://localhost:3000)
 
 ### 3. Build para produção
@@ -23,10 +24,10 @@ npm run start
 
 ---
 
-## 📁 Estrutura do projeto
+## Estrutura Do Projeto
 
-```
-my-agropet/
+```text
+oliver-pet/
 ├── app/
 │   ├── globals.css          # Estilos globais, variáveis CSS e utilitários
 │   ├── layout.tsx           # Layout raiz com metadados SEO
@@ -48,7 +49,7 @@ my-agropet/
 └── package.json
 ```
 
-## 🎨 Design System
+## Design System
 
 | Token | Valor |
 |---|---|
@@ -59,14 +60,15 @@ my-agropet/
 | Radius | 1rem |
 
 **Utilitários CSS customizados:**
-- `.text-gradient` — gradiente de texto verde
-- `.blob-shape` — forma orgânica para decorações
-- `.shadow-warm` — sombra laranja suave
-- `.shadow-card` — sombra sutil para cards
 
-## ☁️ Deploy
+- `.text-gradient` - gradiente de texto verde
+- `.blob-shape` - forma orgânica para decorações
+- `.shadow-warm` - sombra laranja suave
+- `.shadow-card` - sombra sutil para cards
 
-### Vercel (recomendado)
+## Deploy
+
+### Vercel recomendado
 ```bash
 npx vercel
 ```
@@ -82,4 +84,3 @@ RUN npm run build
 EXPOSE 3000
 CMD ["npm", "start"]
 ```
-
