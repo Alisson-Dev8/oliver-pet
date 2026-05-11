@@ -14,6 +14,10 @@ export const metadata: Metadata = {
     "OliverPet Agroshopping",
     "cuidados pet",
   ],
+  icons: {
+    icon: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -27,4 +31,3 @@ export default function RootLayout({
     </html>
   );
 }
-

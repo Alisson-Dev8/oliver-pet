@@ -36,8 +36,8 @@ export default function Footer() {
           <div>
             <h4 className="font-semibold text-background text-sm mb-4">Horário de Atendimento</h4>
             <ul className="space-y-2.5 text-sm text-background/50">
-              <li>Seg a Sex: <span className="text-background/70">8h às 18:30h</span></li>
-              <li>Sábado: <span className="text-background/70">8h às 13h</span></li>
+              <li>Seg a Sex: <span className="text-background/70">08h às 18:30h</span></li>
+              <li>Sábado: <span className="text-background/70">08h às 13h</span></li>
               <li>Domingos: <span className="text-background/70">Fechado</span></li>
               <li>Feriados: <span className="text-background/70">Consultar</span></li>
             </ul>
